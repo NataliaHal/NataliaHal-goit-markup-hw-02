@@ -1,0 +1,543 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --accent-logo-color: #000000;
+  --primary-white-color: #ffffff;
+  --background-color: #f5f5f5;
+  --back-photos-color: #f5f4fa;
+  --background-color-back: #2f303a;
+  --border-box-color: #eeeeee;
+}
+
+body {
+  color: var(--primary-text-color);
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-white-color);
+}
+
+.header {
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logotype {
+  color: var(--accent-logo-color);
+}
+
+.studio {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+.link-studio {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.link-studio:hover,
+.link-studio:focus {
+  color: var(--accent-color);
+}
+
+.portfolio {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.portfolio:hover,
+.portfolio:focus {
+  color: var(--accent-color);
+}
+
+.link-portfolio {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+.contacts {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+
+.mail {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.mail:hover,
+.mail:focus {
+  color: var(--accent-color);
+}
+.telephon {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.telephon:hover,
+.telephon:focus {
+  color: var(--accent-color);
+}
+.back {
+  background-color: var(--background-color-back);
+}
+
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  width: 216px;
+  height: 50px;
+  left: 692px;
+  top: 430px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--title-text-color);
+  cursor: pointer;
+}
+
+.visually-hidden {
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.list-one {
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.list-two {
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.list-three {
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.list-for {
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.lisn-one-text {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.lisn-two-text {
+  font-weight: 400;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.lisn-three-text {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+.lisn-for-text {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+.header-one {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.photo-laptop {
+}
+
+.photo-keyboard {
+}
+
+.tablet {
+}
+
+.header-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.back-two {
+  background-color: var(--back-photos-color);
+}
+
+.photo-user-one {
+}
+
+.photo-user-two {
+}
+
+.photo-user-three {
+}
+
+.photo-user-fore {
+}
+
+.name-user-one {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+.name-user-two {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+.name-user-three {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+.name-user-fore {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+.post-user-one {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.post-user-two {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.post-user-three {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.post-user-fore {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.bacground-color-footer {
+  background-color: var(--background-color-back);
+}
+.logo-footer {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logotype-footer {
+  color: var(--primary-white-color);
+}
+
+.maps {
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+  font-style: normal;
+}
+
+.maps:hover,
+.maps:focus {
+  color: var(--accent-color);
+}
+.adress-footer {
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+.adress-footer:hover,
+.adress-footer:focus {
+  color: var(--accent-color);
+}
+.telephon-footer {
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+.telephon-footer:hover,
+.telephon-footer:focus {
+  color: var(--accent-color);
+}
+
+.button-all {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  font-family: inherit;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-all:hover,
+.button-all:focus {
+  background-color: var(--title-text-color);
+}
+
+.button-site {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  font-family: inherit;
+  background: var(--back-photos-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-site:hover,
+.button-site:focus {
+  background-color: var(--accent-color);
+}
+
+.button-applications {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  font-family: inherit;
+  background: var(--back-photos-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-applications:hover,
+.button-applications:focus {
+  background-color: var(--accent-color);
+}
+
+.button-design {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  font-family: inherit;
+  background: var(--back-photos-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-design:hover,
+.button-design:focus {
+  background-color: var(--accent-color);
+}
+
+.batton-marketing {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  font-family: inherit;
+  background: var(--back-photos-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.batton-marketing:hover,
+.batton-marketing:focus {
+  background-color: var(--accent-color);
+}
+
+.border-box-one {
+  color: var(--border-box-color);
+}
+
+.photo-portfolio-one {
+}
+
+.project {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.link-project {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+.border-box-two {
+  color: var(--border-box-color);
+}
+
+.photo-portfolio-two {
+}
+
+.border-box-three {
+  color: var(--border-box-color);
+}
+
+.photo-portfolio-three {
+}
+
+.border-box-for {
+  color: var(--border-box-color);
+}
+
+.photo-portfolio-for {
+}
+
+.border-box-five {
+  color: var(--border-box-color);
+}
+
+.photo-portfolio-five {
+}
+
+.border-box-six {
+  color: var(--border-box-color);
+}
+
+.photo-portfolio-six {
+}
+
+.border-box-seven {
+  color: var(--border-box-color);
+}
+
+.photo-portfolio-seven {
+}
+
+.border-box-eight {
+  color: var(--border-box-color);
+}
+
+.photo-portfolio-eight {
+}
+
+.border-box-nine {
+  color: var(--border-box-color);
+}
+
+.photo-portfolio-nine {
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
